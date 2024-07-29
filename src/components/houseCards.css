@@ -1,0 +1,48 @@
+
+
+.houses_variants {
+    background-color: #f8f8f8;
+  }
+  
+  
+  .card {
+    color: black;
+
+  }
+  
+  .card_title {
+    font-size: 36px;
+    padding-bottom: 43px;
+    text-align: left;
+  }
+
+  
+  .card_image {
+    padding-bottom: 43px;
+    width: auto;
+  }
+  
+  .card_description_item {
+    font-size: 24px;
+  }
+  
+  .photo_slider {
+    padding-top: 100px;
+    padding-bottom: 106px;
+  }
+  
+  .photo_slider .photo {
+    padding: 0 40px;
+    width: 520px;
+    height: 347px;
+    overflow: hidden;
+  }
+
+  @media screen and (width < 768px) {
+    .card_title {
+      text-align: center;
+    }
+    .card_image {
+      margin: 0 auto;
+    }
+  }

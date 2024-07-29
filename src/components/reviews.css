@@ -1,0 +1,23 @@
+.reviews {
+    background-color: #f8f8f8;
+  }
+  
+  .review_cards {
+    padding-top: 43px;
+    display: flex;
+  }
+  .review_card {
+    padding: 0 40px;
+    max-width: 514px;
+  }
+  .review_card_author, .review_card_date, .review_card_text{
+    padding-bottom: 10px;
+    font-size: clamp(18px, calc(18px + (24 - 18) * (100vw - 768px)/(1920 - 768)), 24px);
+  }
+
+  @media screen and (width < 1100px) {
+
+    .review_cards {
+        display: block;
+    }
+  }

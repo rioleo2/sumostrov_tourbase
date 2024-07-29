@@ -1,0 +1,31 @@
+.history {
+    padding-bottom: 86px;
+  }
+  
+  
+  .block_1 {
+    padding-top: 28px;
+  }
+  
+  .block {
+    padding-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .history_text {
+    color: black;
+    font-size: clamp(18px, calc(18px + (36 - 18) * (100vw - 768px)/(1920 - 768)), 36px);
+    width: 699px;
+    text-align: left;
+  }
+  
+  .history_text_2{
+    text-align: right;
+  }
+  
+  .history_image {
+    width: 34%;
+    height: auto;
+  }

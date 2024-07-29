@@ -1,0 +1,40 @@
+.contacts_variants {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .telephone {
+    font-size: clamp(36px, calc(30px + (36 - 24) * (100vw - 768px)/(1920 - 768)), 36px);
+    min-width: 33%;
+  }
+  
+  .telephone_number {
+    color: black;
+    font-size: clamp(24px, calc(30px + (36 - 24) * (100vw - 768px)/(1920 - 768)), 36px);
+  }
+  
+  .contacts_adress {
+    font-size: clamp(24px, calc(30px + (36 - 24) * (100vw - 768px)/(1920 - 768)), 36px);
+  }
+  
+  .contacts_email {
+    font-size: clamp(24px, calc(30px + (36 - 24) * (100vw - 768px)/(1920 - 768)), 36px);
+    color: black;
+    width: 33%;
+  }
+
+  .notification {
+    font-size: 24px;
+  }
+  
+  @media screen and (width < 1280px){
+    .contacts_variants {
+        display: block;
+        padding-top: 50px;
+    }
+    .telephone, .contacts_adress, .contacts_email {
+        padding-bottom: 30px;
+    }
+  
+  }
